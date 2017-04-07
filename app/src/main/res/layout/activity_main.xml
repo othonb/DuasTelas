@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tela Principal"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <Button
+        android:id="@+id/buttonPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonPrincipalClick"
+        android:text="Abre a Tela Secundária" />
+</LinearLayout>
